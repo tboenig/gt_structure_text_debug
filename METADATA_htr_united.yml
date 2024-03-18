@@ -28,12 +28,14 @@ automatically-aligned: false
 script:
   - iso: Latn
   - iso: Goth
-script-type: only-typed
+script-type: 
+    only-typed
+
 time:
   notAfter: '1900'
   notBefore: '1500'
 hands:
-  count: less-than-11
+  count: unknown
   precision: exact
 license:
   name: CC-BY-SA 4.0
