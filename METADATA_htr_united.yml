@@ -40,7 +40,7 @@ license:
   url: https://creativecommons.org/licenses/by-sa/4.0/
 format: Page-XML
 volume:
-- count: 640976-
+- count: 221412
   metric: characters
   - count: 217
   metric: files
