@@ -30,7 +30,6 @@ script:
   - iso: Goth
 script-type: 
     only-typed
-
 time:
   notAfter: '1900'
   notBefore: '1500'
