@@ -221,7 +221,7 @@ jobs:
 
           - name: generate METADATA_htr_united.yml
             run: |
-              java -jar saxon-he-12.3.jar -xsl:scripts/gt-metadata_htr_united.xsl repoName=$GITHUB_REPOSITORY\
+              java -jar saxon-he-12.3.jar -xsl:scripts/gt-metadata_htr_united.xsl repoName=$GITHUB_REPOSITORY \
               -s:scripts/gt-metadata_htr_united.xsl
             shell: bash  
             
